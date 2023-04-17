@@ -2480,11 +2480,20 @@ blockquote p {
 }
 .page-title-container h2 {
   font-family: "OswaldLight", Arial, Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 28px;
   line-height: 36px;
   color: #fff;
   margin: 50px 10px 0 40px;
+  transition: margin 0.3s ease;
+}
+.page-title-container .sub_partai {
+  font-family: "OswaldLight", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+  margin: 20px 10px 0 40px;
   transition: margin 0.3s ease;
 }
 .page-title-container .breadcrumb {
@@ -2869,15 +2878,22 @@ blockquote p {
   line-height: 48px;
   transition: all 0.3s ease 0s;
 }
+.subtitle_berita {
+  padding-top: 10px;
+  font-family: "OswaldLight", Arial, Helvetica, sans-serif;
+}
+.subtitle_terkait {
+  padding-top: 10px;
+  font-family: "OswaldLight", Arial, Helvetica, sans-serif;
+}
 .blog-carousel-caption-container {
   color: #6f6f73;
   font-family: "OswaldLight", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 150%;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #eee;
 }
 .blog-caption-container {
   color: #6f6f73;
@@ -5288,7 +5304,7 @@ a:focus {
   margin-bottom: 25px !important;
 }
 .m-bot-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 25px !important;
 }
 .m-bot-35 {
   margin-bottom: 35px !important;
@@ -7759,6 +7775,10 @@ ul.list-icons i {
   /*****	#PAGE TITLE	*****/
   .page-title-container h2 {
     margin: 30px 10px 20px 20px;
+    transition: margin 0.3s ease;
+  }
+  .page-title-container .sub_partai {
+    margin: -15px 10px 20px 20px;
     transition: margin 0.3s ease;
   }
 
