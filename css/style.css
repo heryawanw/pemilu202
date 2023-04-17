@@ -2895,6 +2895,16 @@ blockquote p {
   padding-top: 5px;
   padding-bottom: 20px;
 }
+.caleg_lainnya .caption-list-caleg {
+  color: #6f6f73;
+  font-family: "OswaldLight", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 .blog-caption-container {
   color: #6f6f73;
   font-family: "OswaldLight", Arial, Helvetica, sans-serif;
